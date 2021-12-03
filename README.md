@@ -1,6 +1,4 @@
-# `@arcadia/ui`
-
-The React component library for Salesmsg.
+The React component library
 
 ## Commands
 
