@@ -1,0 +1,39 @@
+h1, h2, h3, h4, h5 {
+  @apply font-bold font-secondary;
+}
+h1, h2, h3, h4, h5, h6, p {
+  @apply text-gray-800;
+  &.muted {
+    @apply text-gray-500;
+  }
+  &.disabled {
+    @apply text-gray-200;
+  }
+}
+h1 {
+  @apply text-5xl leading-5xl;
+}
+h2 {
+  @apply text-4xl leading-4xl;
+}
+h3 {
+  @apply text-3xl leading-3xl;
+}
+h4 {
+  @apply text-2xl leading-2xl;
+}
+h5 {
+  @apply text-lg leading-lg;
+}
+h6 {
+  @apply font-medium text-base tracking-tight uppercase leading-base;
+}
+p {
+  @apply text-base tracking-tight leading-base;
+  &.sizeSm {
+    @apply text-sm tracking-normal leading-sm;
+  }
+  &.sizeLg {
+    @apply text-lg;
+  }
+}

@@ -1,0 +1,56 @@
+.alert {
+  @apply flex rounded px-3 py-2 bg-gray-75;
+  svg {
+    @apply text-lg mr-2;
+  }
+}
+
+.header {
+  @apply flex mb-2;
+  svg {
+    @apply text-lg mr-2;
+  }
+}
+
+.alertWithTitle {
+  @apply block p-3;
+  .content {
+    @apply text-sm;
+  }
+}
+
+.alertPrimary {
+  @apply bg-blue-50;
+  .header,
+  .title,
+  svg {
+    @apply text-blue-500;
+  }
+}
+
+.alertWarning {
+  @apply bg-yellow-50;
+  .header,
+  .title,
+  svg {
+    @apply text-yellow-500;
+  }
+}
+
+.alertSuccess {
+  @apply bg-green-50;
+  .header,
+  .title,
+  svg {
+    @apply text-green-500;
+  }
+}
+
+.alertDanger {
+  @apply bg-red-50;
+  .header,
+  .title,
+  svg {
+    @apply text-red-500;
+  }
+}

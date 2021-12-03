@@ -1,0 +1,109 @@
+.btn {
+  @apply flex items-center justify-center rounded font-semibold tracking-tight py-2 px-3 text-white text-base;
+
+  &:focus {
+    @apply outline-none;
+  }
+
+  & > img, svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  & > img + span,
+  & > svg + span {
+    @apply ml-2;
+  }
+}
+
+.btnDanger {
+  @apply bg-red-500;
+
+  &:hover {
+    @apply bg-red-600;
+  }
+
+  &:active {
+    @apply bg-red-700;
+  }
+}
+
+.btnDefault {
+  @apply bg-white border border-gray-100 text-gray-800;
+
+  &:hover {
+    @apply bg-transparent;
+  }
+
+  &:active {
+    @apply bg-gray-100;
+  }
+}
+
+.btnInfo {
+  @apply bg-blue-50 text-blue-500;
+
+  &:hover {
+    @apply bg-blue-75;
+  }
+
+  &:active {
+    @apply bg-blue-100;
+  }
+}
+
+.btnPrimary {
+  @apply bg-blue-500;
+
+  &:hover {
+    @apply bg-blue-600;
+  }
+
+  &:active {
+    @apply bg-blue-700;
+  }
+}
+
+.btnSuccess {
+  @apply bg-green-500;
+
+  &:hover {
+    @apply bg-green-600;
+  }
+
+  &:active {
+    @apply bg-green-700;
+  }
+}
+
+.btnWarning {
+  @apply bg-orange-500;
+
+  &:hover {
+    @apply bg-orange-600;
+  }
+
+  &:active {
+    @apply bg-orange-700;
+  }
+}
+
+.btnSm {
+  padding: 7px 10px;
+  & > img, svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.btnLg {
+  @apply py-2 px-4;
+}
+
+.btnBlock {
+  @apply w-full;
+}
+
+.btnDisabled {
+  @apply opacity-40;
+}

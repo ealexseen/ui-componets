@@ -1,0 +1,65 @@
+label {
+  @apply block text-base tracking-tight leading-base mb-1 text-gray-800;
+}
+
+.formHelper {
+  @apply block mt-1;
+}
+
+.formGroupFocus .formControl {
+  @apply shadow-primary border-primary;
+}
+
+.formGroupDanger {
+  .formControl {
+    @apply border-danger;
+  }
+  &.formGroupFocus .formControl {
+    @apply shadow-danger;
+  }
+}
+
+.formGroupSuccess {
+  .formControl {
+    @apply border-success;
+  }
+  &.formGroupDanger .formControl {
+    @apply shadow-success;
+  }
+}
+
+.formGroupDisabled .formControl {
+  @apply bg-gray-50;
+  input {
+    @apply text-gray-200;
+  }
+}
+
+.formGroupSm {
+  label {
+    @apply text-sm;
+  }
+  img, svg {
+    height: 16px;
+    width: 16px;
+  }
+  .formControl {
+    @apply py-1;
+  }
+}
+
+.formControl {
+  @apply p-2 rounded flex items-center bg-white border border-input;
+  img, svg {
+    height: 20px;
+    width: 20px;
+    @apply mr-2;
+  }
+  input {
+    width: 100%;
+    @apply text-base tracking-tight leading-base text-gray-800 bg-transparent;
+    &:focus {
+      outline: 0;
+    }
+  }
+}
