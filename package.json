@@ -34,7 +34,7 @@
     "hoist-non-react-statics": "3.3.0",
     "postcss-easy-import": "3.0.0",
     "prop-types": "15.7.2",
-    "react-google-font-loader": "1.1.0"
+    "react-google-font-loader": "1.0.5"
   },
   "description": "The React component library for Salesmsg.",
   "license": "UNLICENSED",
@@ -43,9 +43,9 @@
   "name": "@arcadia/ui",
   "peerDependencies": {
     "@arcadia/glyphs": "^1.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "1.1.3"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "tailwindcss": "^1.1.1"
   },
   "private": false,
   "version": "1.3.1"
