@@ -34,7 +34,7 @@
     "hoist-non-react-statics": "3.3.0",
     "postcss-easy-import": "3.0.0",
     "prop-types": "15.7.2",
-    "react-google-font-loader": "1.0.5"
+    "react-google-font-loader": "1.1.0"
   },
   "description": "The React component library for Salesmsg.",
   "license": "UNLICENSED",
