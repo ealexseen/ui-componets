@@ -38,7 +38,7 @@
   },
   "description": "The React component library for Salesmsg.",
   "license": "UNLICENSED",
-  "main": "./index.js",
+  "main": "./esm/index.js",
   "module": "./esm/index.js",
   "name": "@arcadia/ui",
   "peerDependencies": {
