@@ -1,8 +1,13 @@
-"use strict";
+'use strict'
 
 /* eslint-disable global-require */
-var tailwindConfig = require('./tailwind.config');
+var tailwindConfig = require('./tailwind.config')
 
 module.exports = {
-  plugins: [require('postcss-easy-import'), require('tailwindcss')(tailwindConfig), require('autoprefixer')]
-};
+  plugins: [
+    require('postcss-preset-env'),
+    require('postcss-easy-import'),
+    require('tailwindcss')(tailwindConfig),
+    require('autoprefixer'),
+  ],
+}
